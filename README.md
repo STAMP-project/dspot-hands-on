@@ -91,19 +91,19 @@ mvn eu.stamp-project:dspot-maven:amplify-unit-tests \
 You should obtain the same output than you had before.
 
 * Avalaible values for `-Damplifiers`:
-        		 - MethodAdd
-        		 - MethodRemove
-        		 - TestDataMutator
-        		 - MethodGeneratorAmplifier
-        		 - ReturnValueAmplifier
-        		 - StringLiteralAmplifier
-        		 - NumberLiteralAmplifier
-        		 - BooleanLiteralAmplifier
-        		 - CharLiteralAmplifier
-        		 - AllLiteralAmplifiers
-        		 - NullifierAmplifier
-        		 - None
-        (default: None)
+    * MethodAdd
+    * MethodRemove
+    * TestDataMutator
+    * MethodGeneratorAmplifier
+    * ReturnValueAmplifier
+    * StringLiteralAmplifier
+    * NumberLiteralAmplifier
+    * BooleanLiteralAmplifier
+    * CharLiteralAmplifier
+    * AllLiteralAmplifiers
+    * NullifierAmplifier
+    * None
+    * (default: None)
     
 * Increase the number of iterations: `-Diteration=1`, `-Diteration=2`...
 
@@ -125,3 +125,4 @@ mvn eu.stamp-project:dspot-maven:amplify-unit-tests \
     -Dtest=Your.TestClass
 ```
 
+More information on the [GitHub of DSpot](https://github.com/STAMP-project/dspot.git).
