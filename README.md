@@ -2,6 +2,12 @@
 
 The slides and some scripts are avalaible on this repository.
 
+## Prerequisites
+
+You must Java8, Maven and an internet connection. 
+
+First set up your MAVEN_HOME.
+
 ## Try DSpot on dhell project
 
 1. Clone and go in the root directory of the project
