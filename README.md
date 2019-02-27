@@ -22,13 +22,16 @@ mvn eu.stamp-project:dspot-maven:amplify-unit-tests \
     -DtargetOneTestClass \
     -Damplifiers=MethodAdd,MethodRemove \
     -Diteration=1 \
-    -Dtest=eu.stamp_project.examples.dhell.HelloAppTest
+    -Dtest=eu.stamp_project.examples.dhell.HelloAppTest \
+    -Dcases=testHelloAppDefault
 ```
 
 * `-Diteration=1`: DSpot will make only one iteration of the three steps: Input Modification, Assertion Generation and Test Selection Criterion.
 * `-Damplifiers=MethodAdd,MethodRemove`: DSpot will use two input amplifiers (for the input modification).
   1. MethodAdd: duplicate an existing method call.
   2. MethodRemove: Remove an existing method call.
+* `-Dtest=eu.stamp_project.examples.dhell.HelloAppTest`: amplify the test class `eu.stamp_project.examples.dhell.HelloAppTest`
+* `-Dcases=testHelloAppDefault`: amplify the test method named `testHelloAppDefault`.
 
 3. You should obtain something like:
 
